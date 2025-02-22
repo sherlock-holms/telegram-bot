@@ -138,7 +138,7 @@ def main():
                             options=options,
                             type="quiz",
                             correct_option_id=correct_index,
-                            is_anonymous=False
+                            is_anonymous=True
                         )
                         logger.info(f"Quiz sent successfully for user {message.from_user.id}")
                     except Exception as e:
