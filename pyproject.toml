@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "@Quickmcqsbot"
+version = "0.1.0"
+description = "A Telegram bot for creating interactive quizzes"
+authors = ["Your Name <fatima4869ffyy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyTelegramBotAPI = "4.15.2"
+trafilatura = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0"]
+build-backend = "poetry.core.masonry.api"
